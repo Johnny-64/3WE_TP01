@@ -5,7 +5,7 @@ body {
     background-size: cover; 
 }
 
-#titre {
+#fond {
     background-size: 100px 150px;
 }
 
@@ -20,8 +20,8 @@ body {
     display: inline-block;
     font-size: 11px;
     position: fixed;
-    top: 40em;
-    left: 102em;
+    top: 42em;
+    left: 110em;
     color: white;
     font-family: "press Start 2P", "consolas", sans-serif;
     cursor: pointer;
@@ -29,4 +29,10 @@ body {
 
 .button:hover {
     background-color: #0156a7;
+  }
+
+.logo {
+    position: fixed;
+    top: 8em;
+    left: 65em;
   }
