@@ -1,0 +1,20 @@
+body {
+  background-image: url('../images/MicrosoftTeams-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.affichage{
+  background-color: white;
+  font-family: 'DM Mono', Consolas, 'Courrier New', Courier, monospace;
+  font-size: large;
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+  padding: 30px 20px;
+}
