@@ -2,12 +2,26 @@ body {
   background-image: url('../images/MicrosoftTeams-image.png');
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 
-.affichage{
+#titre1{
+  background-color: rgb(1, 30, 85);
+  font-size: large;
+  width: 1000px;
+  height: 900px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+  padding: 30px 20px;
+  font-family: "press Start 2P", "consolas", sans-serif;
+}
+
+#titre2{
   background-color: white;
-  font-family: 'DM Mono', Consolas, 'Courrier New', Courier, monospace;
   font-size: large;
   width: 1000px;
   height: 800px;
@@ -17,4 +31,16 @@ body {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0,0,0,1);
   padding: 30px 20px;
+  font-family: "press Start 2P", "consolas", sans-serif;
+  position: fixed;
+
+}
+
+#texte_paragraphe1{
+text-align: center;
+position: fixed;
+top: 24em;
+left: 41em;
+font-family: "press Start 2P", "consolas", sans-serif;
+font-size: 15px;
 }
