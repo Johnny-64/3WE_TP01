@@ -20,8 +20,8 @@ body {
     display: inline-block;
     font-size: 11px;
     position: fixed;
-    top: 42em;
-    left: 110em;
+    top: 60%;
+    left: 66.2%;
     color: white;
     font-family: "press Start 2P", "consolas", sans-serif;
     cursor: pointer;
@@ -33,6 +33,6 @@ body {
 
 .logo {
     position: fixed;
-    top: 8em;
-    left: 65em;
+    top: 10%;
+    left: 55%;
   }

@@ -37,10 +37,42 @@ body {
 }
 
 #texte_paragraphe1{
-text-align: center;
-position: fixed;
-top: 24em;
-left: 41em;
-font-family: "press Start 2P", "consolas", sans-serif;
-font-size: 15px;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  font-family: "press Start 2P", "consolas", sans-serif;
+  font-size: 11.5px;
+  line-height: 36px;
 }
+
+#texte_paragraphe2{
+  text-align: center;
+  position: absolute;
+  top: 170%;
+  left: 39%;
+  font-family: "press Start 2P", "consolas", sans-serif;
+  font-size: 13px;
+  line-height: 36px;
+  }
+
+#texte_paragraphe3{
+  text-align: center;
+  position: absolute;
+  top: 300%;
+  left: 39%;
+  font-family: "press Start 2P", "consolas", sans-serif;
+  font-size: 13px;
+  line-height: 36px;
+    }
+
+#texte_paragraphe4{
+  text-align: center;
+  position: absolute;
+  top: 400%;
+  left: 39%;
+  font-family: "press Start 2P", "consolas", sans-serif;
+  font-size: 13px;
+  line-height: 36px;
+   }
+  
