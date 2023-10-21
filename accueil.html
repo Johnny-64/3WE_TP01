@@ -9,6 +9,21 @@
 </head>
 <body>
     <button class="button" type="button" onclick="location.href='G:/Session%203/Web%20dynamique/Cours%2012/3WE_TP01/configuration.html'"><b>Débuter une nouvelle partie</b></button>
-    <img class="logo" src="images/finalfantasy_dissidia.png" alt="">
+    <img class="logo" src="images/finalfantasy_dissidia.png" alt="logo-finalfantasy">
+
+    <audio id="musique_accueil" src="musique/musique_accueil.mp3"></audio>
+  
+    <script>
+      // Récupérer l'élément audio
+      var musique = document.getElementById("musique_accueil");
+  
+      // Fonction pour jouer la musique
+      function jouerMusique() {
+        musique.play();
+      }
+  
+      // Attacher un gestionnaire d'événements au clic n'importe où sur la page
+      document.body.addEventListener("click", jouerMusique);
+    </script>
 </body>
 </html>
